@@ -1,0 +1,410 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>css1</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <style>
+    body {
+      font-family: "Montserrat";
+      text-align: center;
+    }
+    .box1 {
+      position: relative;
+      background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+        url("images/you-x-ventures-Oalh2MojUuk-unsplash.png");
+      height: 45vh;
+      width: 100%;
+      background-size: cover;
+      background-repeat: no-repeat;
+      font-size: 1.8rem;
+    }
+    .box1 img {
+      width: 100%;
+    }
+    .box1 div {
+      color: white;
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    .navbar {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 0 30px;
+      background-color: #00a19d;
+      color: white;
+      text-decoration: none;
+    }
+    a:link {
+      color: white;
+      text-decoration-line: none;
+    }
+    a:visited {
+      color: white;
+    }
+    .nav-links {
+      display: flex;
+    }
+    .nav-links div {
+      margin: 0 10px;
+    }
+    .box2-div {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 70%;
+      margin: auto;
+    }
+    .img2 {
+      width: 50%;
+      margin: 50px 50px 50px 50px;
+    }
+
+    .box2-txt {
+      font-size: 1.2rem;
+    }
+    .box3 {
+      background-color: #368b85;
+      text-align: center;
+      color: white;
+      padding: 30px 0;
+    }
+    .box4 {
+      margin-top: 60px;
+      margin-bottom: 60px;
+    }
+    .box4-div {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    .benefits {
+      display: flex;
+      justify-content: center;
+      padding: 20px 40px;
+      align-items: center;
+      flex-direction: column;
+      position: relative;
+      z-index: 1;
+    }
+    .benefits-heading {
+      font-size: 1.5rem;
+      font-weight: 400;
+    }
+    .benefits img {
+      height: 150px;
+      width: 150px;
+      margin-bottom: 30px;
+    }
+    .mentor {
+      font-size: 2rem;
+      background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+        url("images/monica-melton-oc_XTqWezp4-unsplash.png");
+      width: 100%;
+      height: 50vh;
+      background-size: cover;
+      background-repeat: no-repeat;
+      color: white;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      margin-bottom: 80px;
+    }
+
+    .feature {
+      position: relative;
+      width: 240px;
+      border-radius: 25px;
+      margin: 25px;
+      background-color: #ededed;
+      box-shadow: 10px 10px 15px 2px rgba(0, 0, 0, 0.2);
+    }
+    .feature-text {
+      margin: 10px 15px;
+    }
+    .feature-btns {
+      padding: 10px;
+    }
+
+    .preview {
+      background-color: #4a403a !important;
+      width: 85px !important;
+    }
+    .feature-container {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      align-items: center;
+    }
+    .feature img {
+      width: 100%;
+    }
+    .feature-heading {
+      font-weight: bold;
+    }
+    .feature-desc {
+      font-size: 1rem;
+    }
+    .feature-price {
+      font-weight: bold;
+    }
+    .feature-btns button {
+      border-radius: 25px;
+      border: none;
+      background-color: #368b85;
+      height: 30px;
+      /* padding: 10px; */
+      width: 115px;
+      font-size: 0.95rem;
+      color: white;
+    }
+    #button {
+      background: #368b85;
+      border-radius: 15px;
+      color: #ffffff;
+      font-size: 1.2rem;
+      font-weight: 200;
+      padding: 10px;
+      text-decoration: none;
+      display: inline-block;
+      width: 170px;
+      text-align: center;
+      border: none;
+    }
+  </style>
+  <body>
+    <div>
+      <nav class="navbar">
+        <div class="nav-brand">
+          <h3>Teach our teachers</h3>
+        </div>
+        <div class="nav-links">
+          <div><a href="#whyus">Why Us?</a></div>
+          <div><a href="#features">Features</a></div>
+          <div><a href="#resources">Resources</a></div>
+          <div><a href="#getintouch">Get In Touch</a></div>
+        </div>
+      </nav>
+    </div>
+    <div class="box1">
+      <div>
+        <p>
+          World's most popular online marketplace for<br />
+          teacher collaboration and edupreneurship
+        </p>
+      </div>
+    </div>
+    <br /><br />
+    <!-- --------------------why us----------------- -->
+    <div class="box2" id="whyus">
+      <h2>Incredible things can happen when teachers work together.</h2>
+      <div class="box2-div">
+        <img class="img2" src="images/Image 3.png" alt="img2" />
+        <p class="box2-txt">
+          Preparing resources for conducting classes is tough. We take care of
+          everything for you and make teaching easy and fascinating. When
+          teachers work in coherence, it paves the way for Edupreneurship.
+        </p>
+      </div>
+    </div>
+    <!-- ------------------------------------------------- -->
+    <div class="box3">
+      <img src="images/NoPath.png" alt="img3" />
+      <p style="padding-top: 20px; font-size: 1.3rem">
+        Preparing for classes is now a problem of the past. Collaborate with
+        <br />
+        amazing teachers all over the world and grow professionally. Your <br />
+        Edupreneurial journey starts here!
+      </p>
+    </div>
+    <!-- ------------------benefits of working with us----------------------- -->
+    <section class="box4" id="features">
+      <h2>Benefits of working with us</h2>
+      <div class="box4-div">
+        <div class="benefits">
+          <img src="images/NoPath - Copy (2).png" alt="" />
+          <div class="benefits-heading">Become an Edupreneur</div>
+          <p>
+            Share your treasure trove of teaching resources and generate an
+            alternate source of income
+          </p>
+        </div>
+        <div class="benefits">
+          <img src="images/NoPath - Copy (3).png" alt="" />
+          <div class="benefits-heading">Teacher Resources</div>
+          <p>
+            Save a days's effort every week by acquiring resources tailored to
+            your unique teaching needs
+          </p>
+        </div>
+        <div class="benefits">
+          <img src="images/NoPath - Copy (4).png" alt="" />
+          <div class="benefits-heading">Mentorship Program</div>
+          <p>
+            Upskill yourself and grow professionally by seeking guidance and
+            support from seasoned teachers
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ---------------------get in touch------------------- -->
+    <section class="mentor" id="getintouch">
+      <p>Looking for a mentor??</p>
+      <button id="button">Get in touch</button>
+    </section>
+    <!-- -----------------Resources---------------------- -->
+
+    <section>
+      <p style="font-size: 2rem; font-weight: 700">Featured Resources</p>
+      <div class="feature-container">
+        <div class="feature">
+          <img src="images/Image 1.png" alt="" />
+          <div class="feature-text">
+            <div class="feature-heading">
+              The Ultimate guide to Right Angle Trigonometry
+            </div>
+            <p class="feature-desc">
+              A short description here which tells us the topics in brief.
+            </p>
+            <div class="feature-price">INR 300</div>
+          </div>
+          <div class="feature-btns">
+            <button class="preview">Preview</button>
+            <button>Buy Now</button>
+          </div>
+        </div>
+        <div class="feature" id="resources">
+          <img src="images/Image 1.png" alt="" />
+          <div class="feature-text">
+            <div class="feature-heading">
+              The Ultimate guide to Right Angle Trigonometry
+            </div>
+            <p class="feature-desc">
+              A short description here which tells us the topics in brief.
+            </p>
+            <div class="feature-price">INR 300</div>
+          </div>
+          <div class="feature-btns">
+            <button class="preview">Preview</button>
+            <button>Buy Now</button>
+          </div>
+        </div>
+        <div class="feature">
+          <img src="images/Image 1.png" alt="" />
+          <div class="feature-text">
+            <div class="feature-heading">
+              The Ultimate guide to Right Angle Trigonometry
+            </div>
+            <p class="feature-desc">
+              A short description here which tells us the topics in brief.
+            </p>
+            <div class="feature-price">INR 300</div>
+          </div>
+          <div class="feature-btns">
+            <button class="preview">Preview</button>
+            <button>Buy Now</button>
+          </div>
+        </div>
+        <div class="feature">
+          <img src="images/Image 1.png" alt="" />
+          <div class="feature-text">
+            <div class="feature-heading">
+              The Ultimate guide to Right Angle Trigonometry
+            </div>
+            <p class="feature-desc">
+              A short description here which tells us the topics in brief.
+            </p>
+            <div class="feature-price">INR 300</div>
+          </div>
+          <div class="feature-btns">
+            <button class="preview">Preview</button>
+            <button>Buy Now</button>
+          </div>
+        </div>
+        <div class="feature">
+          <img src="images/Image 1.png" alt="" />
+          <div class="feature-text">
+            <div class="feature-heading">
+              The Ultimate guide to Right Angle Trigonometry
+            </div>
+            <p class="feature-desc">
+              A short description here which tells us the topics in brief.
+            </p>
+            <div class="feature-price">INR 300</div>
+          </div>
+          <div class="feature-btns">
+            <button class="preview">Preview</button>
+            <button>Buy Now</button>
+          </div>
+        </div>
+        <div class="feature">
+          <img src="images/Image 1.png" alt="" />
+          <div class="feature-text">
+            <div class="feature-heading">
+              The Ultimate guide to Right Angle Trigonometry
+            </div>
+            <p class="feature-desc">
+              A short description here which tells us the topics in brief.
+            </p>
+            <div class="feature-price">INR 300</div>
+          </div>
+          <div class="feature-btns">
+            <button class="preview">Preview</button>
+            <button>Buy Now</button>
+          </div>
+        </div>
+        <div class="feature">
+          <img src="images/Image 1.png" alt="" />
+          <div class="feature-text">
+            <div class="feature-heading">
+              The Ultimate guide to Right Angle Trigonometry
+            </div>
+            <p class="feature-desc">
+              A short description here which tells us the topics in brief.
+            </p>
+            <div class="feature-price">INR 300</div>
+          </div>
+          <div class="feature-btns">
+            <button class="preview">Preview</button>
+            <button>Buy Now</button>
+          </div>
+        </div>
+        <div class="feature">
+          <img src="images/Image 1.png" alt="" />
+          <div class="feature-text">
+            <div class="feature-heading">
+              The Ultimate guide to Right Angle Trigonometry
+            </div>
+            <p class="feature-desc">
+              A short description here which tells us the topics in brief.
+            </p>
+            <div class="feature-price">INR 300</div>
+          </div>
+          <div class="feature-btns">
+            <button class="preview">Preview</button>
+            <button>Buy Now</button>
+          </div>
+        </div>
+      </div>
+    </section>
+  </body>
+
+  <br /><br />
+  <!-- -------------------footer-------------------- -->
+  <footer style="background-color: #368b85; padding: 1px 0; margin-top: 50px">
+    <p style="color: white">Copyright 2020. All Rights Reserved.</p>
+  </footer>
+</html>
